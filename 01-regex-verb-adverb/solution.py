@@ -72,7 +72,7 @@ def main(file_path: Path):
 
 
 if __name__ == "__main__":
-    arg = Path("a.txt")
+    arg = Path("data/my-text.txt")
 
     if len(sys.argv) > 1:
         arg = Path(sys.argv[-1])
